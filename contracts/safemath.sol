@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5;
 
 /**
  * @title SafeMath
@@ -43,4 +43,5 @@ library SafeMath {
     uint256 c = a + b;
     assert(c >= a);
     return c;
+  }
 }
